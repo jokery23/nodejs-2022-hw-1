@@ -1,4 +1,8 @@
-# Scripts
+# Readme
+
+## Environment
+- node version: 18.8.0
+- npm version: 8.18.0
 
 ## Install
 
