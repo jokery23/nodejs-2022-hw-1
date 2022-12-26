@@ -2,7 +2,7 @@ import { stdin, stdout } from 'node:process';
 
 stdin.on('data', (msg) => {
   stdout.write(reverseMessage(msg.toString().trimEnd()));
-  stdout.write(`\n\n`);
+  stdout.write(`\n`);
 });
 
 function reverseMessage(text = '') {

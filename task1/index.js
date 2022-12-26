@@ -1,6 +1,6 @@
 process.stdin.on('data', (msg) => {
   process.stdout.write(reverseMessage(msg.toString().trimEnd()));
-  process.stdout.write(`\n\n`);
+  process.stdout.write(`\n`);
 });
 
 function reverseMessage(text = '') {
